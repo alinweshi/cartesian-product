@@ -104,8 +104,8 @@ function cartesianProductGenerator(...$arrays)
         }
     }
 }
-foreach (cartesianProductGenerator(range(1, 1000), range(1, 1000)) as $combination) {
-    print_r($combination);
-}
+// foreach (cartesianProductGenerator(range(1, 1000), range(1, 1000)) as $combination) {
+//     print_r($combination);
+// }
 
 /*-------------------------------------------------------------------------*/
